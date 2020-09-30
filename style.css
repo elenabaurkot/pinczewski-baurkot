@@ -49,6 +49,7 @@ body {
   display: flex;
   height: 70vh;
   align-items: center;
+  border-bottom: 1px solid rgba(157, 234, 235, 0.344);
 }
 #pip-text {
   margin: 0 0 5% 10%;
@@ -73,14 +74,25 @@ hr {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 5%;
 }
 
 #about-header {
   font-family: 'Philosopher', sans-serif;
   font-weight: bolder;
+  font-size: 2em;
   color: rgb(1, 62, 84);
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
 }
 #about-section {
+  font-size: 1.3em;
+  letter-spacing: 0.2px;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+
+.about {
   font-family: 'Philosopher', sans-serif;
   color: rgb(1, 62, 84);
 }
