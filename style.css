@@ -54,11 +54,12 @@ body {
   text-transform: uppercase;
   width: 45%;
   /* font-family: 'Barlow Condensed', sans-serif; */
-  font-family: 'Monda', sans-serif;
+  /* font-family: 'Monda', sans-serif; */
+  font-family: 'Exo', sans-serif;
   font-weight: bolder;
   color: rgb(1, 62, 84);
   line-height: 1.3em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 hr {
