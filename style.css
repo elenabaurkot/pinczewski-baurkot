@@ -1,6 +1,13 @@
+html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 #logo {
@@ -69,12 +76,13 @@ hr {
   margin: 0;
 }
 
-.container {
+.about-container {
   width: 75%;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 5%;
+  padding-top: 5%;
+  box-sizing: border-box;
 }
 
 #about-header {
@@ -95,4 +103,11 @@ hr {
 .about {
   font-family: 'Philosopher', sans-serif;
   color: rgb(1, 62, 84);
+}
+
+section {
+  height: 100%;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
 }
